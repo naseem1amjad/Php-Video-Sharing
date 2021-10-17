@@ -1,0 +1,113 @@
+form {
+  width: 50%;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #bbbbbb;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+
+input[type="text"] {
+  width: 250px;
+  border: 1px solid #212121;  
+}
+input[type="email"] {
+  width: 290px;
+  border: 1px solid #212121;  
+}
+h2.heading {
+  text-align: center;
+  background-color: #FFF6D1;
+
+}
+input[type="radio"] {
+}
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+table.firstRow {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+th.firstRow,
+td.firstRow {
+  height: 0px;
+  vertical-align: center;
+  border: 1px solid lightgray;
+}
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+th,
+td {
+  height: 50px;
+  vertical-align: center;
+  border: 1px solid gray;
+}
+
+.headingTable {
+  width: 60%; 
+  height: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.headingTd {
+  vertical-align: center;
+  border: 0px;
+  background-color: #fdfdfd;
+  padding: 0px;
+  margin: 0px;
+}
+
+tbody td{
+  padding: 10px;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #dfdfdf;
+  color: #000;
+}
+.SubmitButton {
+  background-color: #4C7FFF; /* Blue */
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.ApproveButton {
+	 background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.RejectButton {
+  background-color: #FF2F20; /* Red */
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
